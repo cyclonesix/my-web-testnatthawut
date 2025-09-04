@@ -1,0 +1,26 @@
+body{
+    font-family: 'Kanit', Times, serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.brand-logo{
+    border: 1px solid #ccc;
+    padding: 10px ;
+    background-color: #fff;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    height: 80px;
+    transition: transform 0.3s;
+
+
+}
+.brand-logo:hover{
+    border-color:#e92828 ;
+    transform: scale(1.05);
+
+}
+.brand-logo img{
+    max-width: 100%;
+    max-height: 60%;
+}
